@@ -81,13 +81,10 @@
             </ul>
 
         
-            <h3>Everything I know about Python and C++</h3>
+            <h3>Coding Example</h3>
             <div>
                 Python: <pre><code>print('hello world')</code></pre>
             </div>    
-            <div>
-                C++: <pre><code>cout &lt&lt "hello world" &lt&lt endl; </code></pre>
-            </div>
             <hr>
         </section>    
 
@@ -111,7 +108,6 @@
             <h3>iFrame</h3>
             <iframe src="https://www.youtube.com/embed/ANJ9JLV4IPg" width="560" height="315"></iframe>
 
-            <div></div>
             <h3>audio</h3>
             <audio controls>
                 <source src="birds.mp3">
@@ -127,7 +123,7 @@
 
             <h3>svg</h3>
             <svg width="200" height="200">
-                <circle cx="100"cy="100" r="60" fill="blue" />
+                <circle cx="100" cy="100" r="60" fill="blue" />
             </svg>
 
         </section>
@@ -153,8 +149,7 @@
                 </fieldset>
             </form>
             <form>
-                <legend>Textarea:</legend>
-                <textarea name="textbox" id="textbox" cols="50" rows="10">text goes here</textarea>
+                <textarea name="textbox" id="textbox" cols="50" rows="10">this is a textarea</textarea>
                 <br>
                 <input type="submit" value="Click to Submit">
             </form>
@@ -171,69 +166,71 @@
 
             <form>
                 <br>
-                <label for="username">Username:</label>
+                <div>
+                    <label for="username">Username:</label>
+                    <br>
+                    <input type="text" id="username" name="username">
+                    <br>
+                    <label for="pw">Password:</label>
+                    <br>
+                    <input type="password" id="pw" name="pw">
+                    <br>
+                    <input type="submit" value="Login">
+                    <input type="reset">
+                </div>
                 <br>
-                <input type="text" id="username" name="username">
+                <div>
+                    <p>Radio Buttons:</p>
+                    <input type="radio" id="opt1" name="radiooption" value="option 1">
+                    <label for="opt1">Radio 1</label>
+                    <br>
+                    <input type="radio" id="opt2" name="radiooption" value="option 2">
+                    <label for="opt2">Radio 2</label>
+                    <br>
+                    <input type="radio" id="opt3" name="radiooption" value="option 3">
+                    <label for="opt3">Radio 3</label>
+                </div>
                 <br>
-
-                <label for="password">Password:</label>
+                <div>
+                    <p>Checkboxes:</p>
+                    <input type="checkbox" id="eng" name="eng" value="English">
+                    <label for="eng">I speak English</label>
+                    <br>
+                    <input type="checkbox" id="esp" name="esp" value="Spanish">
+                    <label for="esp">I speak Spanish</label>
+                </div>
                 <br>
-                <input type="password">
+                <div>
+                    <label for="favoritecolor">Choose a color:</label>
+                    <input type="color" id="favoritecolor" name="favoritecolor">
+                </div>
                 <br>
-                <input type="submit" value="Login">
-                <input type="reset">
+                <div>
+                    <label for="bday">Pick your birthday:</label>
+                    <input type="date" id="bday" name="bday">
+                </div>
                 <br>
+                <div>
+                    <label for="email">Enter an email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
                 <br>
-                <legend>Radio Buttons:</legend>
-                <input type="radio" id="opt1" name="radiooption" value="option 1">
-                <label for="opt1">Radio 1</label>
-                <br>
-                <input type="radio" id="opt2" name="radiooption" value="option 2">
-                <label for="opt2">Radio 2</label>
-                <br>
-                <input type="radio" id="opt3" name="radiooption" value="option 3">
-                <label for="opt3">Radio 3</label>
-                <br>
-
-                <br>
-                <legend>Checkboxes:</legend>
-                <input type="checkbox" id="eng" name="eng" value="English">
-                <label for="eng">I speak English</label>
-                <br>
-                <input type="checkbox" id="esp" name="esp" value="Spanish">
-                <label for="esp">I speak Spanish</label>
-                <br>
-                
-                <label for="favoritecolor">Choose a color:</label>
-                <input type="color" id="favoritecolor" name="favoritecolor">
-                <br>
-                <br>
-                <label for="bday">Pick your birthday:</label>
-                <input type="date" id="bday" name="bday">
-                <br>
-                <br>  
-                <label for="email">Enter an email:</label>
-                <input type="email" id="email" name="email">
-                <br>
-                <label for="rating">Rate from 1 to 10:</label>
-                <input type="number" id="rating" name="rating" min="1" max="10">
-
+                <div>
+                    <label for="rating">Rate from 1 to 10:</label>
+                    <input type="number" id="rating" name="rating" min="1" max="10">
+                </div>
             </form>
         </section>
 
         <section>
             <h2>interactive elements</h2>
-            
             <details>
                 <summary>
                     more details here
                 </summary>
                 <p>details...</p>
             </details>
-
-            <button>
-                press me!
-            </button>
+            <button>press me!</button>
         </section>
 
     </main>
