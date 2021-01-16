@@ -1,1 +1,248 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="author" content="Brian Chang" >
+    <title>Brian Chang User Site</title>
+    <link rel="stylesheet" href="empty.css">
+</head>
+<body>
+    <header>
+        <h1>Brian Chang</h1>
+        <figure>
+            <img src="images/professional.jpg" alt="very handsome boy smiling">
+            <figcaption>Me pretending to be professional :D</figcaption>
+        </figure>
+        <hr>
+    </header>
+    <aside>
+        <h2>Table of Contents</h2>
+        <nav>
+            <ul>
+                <li><a href="#intro">Intro</a></li>
+                <li><a href="#edu">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#fun">Fun Facts</a></li>
+                <li><a href="#Other">Other HTML Examples</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </aside>
+    <main>
+
+        <section id="intro">
+            <h2>Intro</h2>
+            <p>
+                Hi, I'm <strong>Brian Chang</strong>.<br>
+                I'm a 2nd-year Computer Science student at UC San Diego.
+            </p>
+            <hr>
+        </section>
+
+        <section id="edu">
+            <h2>Education</h2>
+            <h3><em>University of California, San Diego</em></h3>
+            <p><em>B.S. in <span>Computer Science</span>, Minor in <span>Cognitive Science</span></em></p>
+            
+            <table>
+                <caption>Relevant Coursework</caption>
+                <colgroup>
+                    <col span="1">
+                    <col span="1">
+                </colgroup>
+                <tr>
+                  <th>Code</th>
+                  <th>Course Title</th>
+                </tr>
+                <tr>
+                  <td>CSE 100</td>
+                  <td>Advanced Data Structures</td>
+                </tr>
+                <tr>
+                    <td>CSE 105</td>
+                    <td>Theory of Computation</td>
+                </tr>
+              </table>
+            <hr>
+        </section>
+        
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>C++</li>
+                <li>C</li>
+                <li>Java</li>
+                <li>HTML/CSS</li>
+                <li>Unix</li>
+                <li>Git</li>
+                <li>Vim</li>
+                <li>VSCode</li>
+            </ul>
+
+        
+            <h3>Everything I know about Python and C++</h3>
+            <div>
+                Python: <pre><code>print('hello world')</code></pre>
+            </div>    
+            <div>
+                C++: <pre><code>cout &lt&lt "hello world" &lt&lt endl; </code></pre>
+            </div>
+            <hr>
+        </section>    
+
+        <section id="fun">
+            <h2>Fun Facts</h2>
+            <ol>
+                <li>I like fishing</li>
+                <li>I like running</li>
+                <li>I like playing <i>Stardew Valley</i></li>
+                <li>I have two cats: Finn and Olive</li>               
+            </ol>
+            <picture>
+                <img src="images/cats.jpg" alt="">
+            </picture>
+            <hr>
+        </section> 
+
+        <section id="Other">
+            <h2>Other examples</h2>
+
+            <h3>iFrame</h3>
+            <iframe src="https://www.youtube.com/embed/ANJ9JLV4IPg" width="560" height="315"></iframe>
+
+            <div></div>
+            <h3>audio</h3>
+            <audio controls>
+                <source src="birds.mp3">
+            </audio>
+
+            <h3>video</h3>
+            <video width="320" height="240" controls>
+                <source src="ocean.mp4">
+            </video>
+
+            <h3>canvas (doesn't do anything with just html)</h3>
+            <canvas></canvas>
+
+            <h3>svg</h3>
+            <svg width="200" height="200">
+                <circle cx="100"cy="100" r="60" fill="blue" />
+            </svg>
+
+        </section>
+
+        <section>
+            <h2>forms</h2>
+            <form>
+                <fieldset>
+                    <legend>Select:</legend>
+                    <label for="options">Choose an option:</label>
+                    <select name="options" id="options">
+                        <optgroup label="Group A">
+                            <option value="option1">Option 1a</option>
+                            <option value="option2">Option 2a</option>
+                            <option value="option3">Option 3a</option>
+                        </optgroup>   
+                        <optgroup label="Group B">
+                            <option value="option1">Option 1b</option>
+                            <option value="option2">Option 2b</option>
+                            <option value="option3">Option 3b</option>
+                        </optgroup>                                   
+                    </select>
+                </fieldset>
+            </form>
+            <form>
+                <legend>Textarea:</legend>
+                <textarea name="textbox" id="textbox" cols="50" rows="10">text goes here</textarea>
+                <br>
+                <input type="submit" value="Click to Submit">
+            </form>
+
+            <form>
+                <label for="choicelist">Choose from the list:</label>
+                <input list="choices" name="choicelist" id="choicelist">
+                <datalist id="choices">
+                    <option value="Option 1">
+                    <option value="Option 2">
+                    <option value="Option 3">
+                </datalist>
+            </form>
+
+            <form>
+                <br>
+                <label for="username">Username:</label>
+                <br>
+                <input type="text" id="username" name="username">
+                <br>
+
+                <label for="password">Password:</label>
+                <br>
+                <input type="password">
+                <br>
+                <input type="submit" value="Login">
+                <input type="reset">
+                <br>
+                <br>
+                <legend>Radio Buttons:</legend>
+                <input type="radio" id="opt1" name="radiooption" value="option 1">
+                <label for="opt1">Radio 1</label>
+                <br>
+                <input type="radio" id="opt2" name="radiooption" value="option 2">
+                <label for="opt2">Radio 2</label>
+                <br>
+                <input type="radio" id="opt3" name="radiooption" value="option 3">
+                <label for="opt3">Radio 3</label>
+                <br>
+
+                <br>
+                <legend>Checkboxes:</legend>
+                <input type="checkbox" id="eng" name="eng" value="English">
+                <label for="eng">I speak English</label>
+                <br>
+                <input type="checkbox" id="esp" name="esp" value="Spanish">
+                <label for="esp">I speak Spanish</label>
+                <br>
+                
+                <label for="favoritecolor">Choose a color:</label>
+                <input type="color" id="favoritecolor" name="favoritecolor">
+                <br>
+                <br>
+                <label for="bday">Pick your birthday:</label>
+                <input type="date" id="bday" name="bday">
+                <br>
+                <br>  
+                <label for="email">Enter an email:</label>
+                <input type="email" id="email" name="email">
+                <br>
+                <label for="rating">Rate from 1 to 10:</label>
+                <input type="number" id="rating" name="rating" min="1" max="10">
+
+            </form>
+        </section>
+
+        <section>
+            <h2>interactive elements</h2>
+            
+            <details>
+                <summary>
+                    more details here
+                </summary>
+                <p>details...</p>
+            </details>
+
+            <button>
+                press me!
+            </button>
+        </section>
+
+    </main>
+
+    <footer>
+        <b>*contact info*</b>
+    </footer>
+
+
+
+</body>
+</html>
