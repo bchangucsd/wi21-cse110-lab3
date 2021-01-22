@@ -7,7 +7,5 @@ assignees: bchangucsd
 
 ---
 
-# Task Name
 Details:
-  - 
   -
