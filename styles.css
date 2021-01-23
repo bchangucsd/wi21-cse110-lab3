@@ -1,11 +1,12 @@
 /* Welcome to my CSS file! */
 
-
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 * {
     /* set all margins and padding to a default of 0*/
     margin: 0 0 0 0;
     padding: 0 0 0 0;
+    font-family: 'Lato', sans-serif;
 }
 
 body {
@@ -14,6 +15,7 @@ body {
 
 header {
     background-color: rgba(32, 180, 248, 0.5);
+    text-align: center;
 }
 
 .background-info {
@@ -30,8 +32,12 @@ img[src="images/professional.jpg"] {
     
 }
 
+a {
+    text-decoration: none;
+}
+
 a:hover {
-    color: hsl(237, 83%, 37%);
+    color: hsl(300, 100%, 37%);
 }
 
 a:active {
