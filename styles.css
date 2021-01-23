@@ -20,8 +20,8 @@ header {
     background-color: #BDF;
 }
 
-img[alt="very handsome boy smiling"] {
-
+img[src="images/professional.jpg"] {
+    height: 250px;
 }
 
 a:hover {
@@ -36,10 +36,31 @@ a:active {
     list-style-type: none;
 }
 
-#links li {
+nav li {
     display: inline-block;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+#pics {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+section > picture {
+    margin: auto;
+}
+
+img.fun {
+    width: 250px;
+}
+
+h2 ~ section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
