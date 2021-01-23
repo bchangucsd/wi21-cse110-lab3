@@ -133,3 +133,8 @@ form {
     width: 20ch;
 }
 
+#grid {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
