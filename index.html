@@ -4,19 +4,28 @@
 <head>
     <meta name="author" content="Brian Chang" >
     <title>Brian Chang User Site</title>
-    <link rel="stylesheet" href="empty.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+
+        /* table of contents */
+        #toc {
+            color: rgb(18, 9, 104);
+        }
+    </style>
 </head>
+
 <body>
     <header>
-        <h1>Brian Chang</h1>
-        <figure>
+        <h1 style="color: blue;">Brian Chang</h1>
+        <figure >
             <img src="images/professional.jpg" alt="very handsome boy smiling">
             <figcaption>Me pretending to be professional :D</figcaption>
         </figure>
         <hr>
     </header>
     <aside>
-        <h2>Table of Contents</h2>
+        <h2 id="toc">Table of Contents</h2>
         <nav>
             <ul>
                 <li><a href="#intro">Intro</a></li>
@@ -30,7 +39,7 @@
     </aside>
     <main>
 
-        <section id="intro">
+        <section class="background-info" id="intro">
             <h2>Intro</h2>
             <p>
                 Hi, I'm <strong>Brian Chang</strong>.<br>
@@ -39,7 +48,7 @@
             <hr>
         </section>
 
-        <section id="edu">
+        <section class="background-info" id="edu">
             <h2>Education</h2>
             <h3><em>University of California, San Diego</em></h3>
             <p><em>B.S. in <span>Computer Science</span>, Minor in <span>Cognitive Science</span></em></p>
