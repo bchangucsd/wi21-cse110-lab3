@@ -22,6 +22,7 @@ header {
 
 img[src="images/professional.jpg"] {
     height: 250px;
+    min-width: 5%;
 }
 
 a:hover {
@@ -55,7 +56,22 @@ section > picture {
 }
 
 img.fun {
-    width: 250px;
+    width: 200px;
+    max-width: 90%;
+}
+
+@media screen and (max-width: 865px) {
+    
+    section > picture {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    
+    img.fun {
+        width: 250px;
+    }
 }
 
 h2 ~ section {
@@ -64,3 +80,4 @@ h2 ~ section {
     margin-left: 50px;
     margin-right: 50px;
 }
+
