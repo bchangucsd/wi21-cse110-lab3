@@ -1,0 +1,29 @@
+/* Welcome to my CSS file! */
+
+* {
+
+}
+
+body {
+    background-color: #C9E4FD; 
+}
+
+header {
+    background-color: rgba(32, 180, 248, 0.5);
+}
+
+.background-info {
+    background-color: #BDF;
+}
+
+img[alt="very handsome boy smiling"] {
+
+}
+
+a:hover {
+    color: hsl(237, 83%, 37%);
+}
+
+a:active {
+    color: hsla(0, 0%, 0%, 0.3);
+}
