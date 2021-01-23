@@ -37,15 +37,23 @@ a {
 }
 
 a:hover {
-    color: hsl(300, 100%, 37%);
+    color: hsl(237, 83%, 50%);
 }
 
 a:active {
     color: hsla(0, 0%, 0%, 0.3);
 }
 
+
 #links {
     list-style-type: none;
+}
+
+nav {
+    background-color: beige;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 nav li {
@@ -64,6 +72,7 @@ nav li {
 
 section > picture {
     margin: auto;
+    position: relative;
 }
 
 img.fun {
@@ -108,4 +117,19 @@ form {
     margin: 10px;
 }
 
+.kermit2  {
+    width: 4cm;
+}
+
+.kermit3  {
+    width: 2in;
+}
+
+.cats2 {
+    width: 10em;
+}
+
+.cats3 {
+    width: 20ch;
+}
 
