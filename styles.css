@@ -23,6 +23,11 @@ header {
 img[src="images/professional.jpg"] {
     height: 250px;
     min-width: 5%;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: navy;
+    border-width: 5px;
+    
 }
 
 a:hover {
@@ -80,4 +85,21 @@ h2 ~ section {
     margin-left: 50px;
     margin-right: 50px;
 }
+
+iframe, audio, video {
+    display: none;
+}
+
+h2 + details {
+    display: none;
+}
+
+form {
+    display: none;
+}
+#skills li {
+    display: inline;
+    margin: 10px;
+}
+
 
